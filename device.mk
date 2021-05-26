@@ -35,9 +35,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# Boot animation
-TARGET_BOOT_ANIMATION_RES := 1080
-
 # Pocket mode
 PRODUCT_PACKAGES += \
     OnePlusPocketMode

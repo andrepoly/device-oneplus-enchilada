@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- About ShapeShiftOS -->
-    <string name="shapeshiftos_about_maintainer_summary" translatable="false">THERAD1</string>
+    <!-- About OctaviOS -->
+    <string name="octavi_about_maintainer_summary" translatable="false">tamashiro</string>
 
 </resources>

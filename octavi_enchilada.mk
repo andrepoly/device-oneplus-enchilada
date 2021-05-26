@@ -22,16 +22,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/enchilada/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
+$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
 
-SSOS_BUILD_TYPE := OFFICIAL
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# OctaviOS
 TARGET_FACE_UNLOCK_SUPPORTED := true
+OCTAVI_DEVICE_MAINTAINER := tamashiro
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_STOCK_ARCORE := true
+# GApps
+WITH_GAPPS := true
+TARGET_ARCH := arm64
 
-PRODUCT_NAME := ssos_enchilada
+PRODUCT_NAME := octavi_enchilada
 PRODUCT_DEVICE := enchilada
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
